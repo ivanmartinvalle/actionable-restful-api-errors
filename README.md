@@ -1,2 +1,17 @@
 # actionable-restful-api-errors
-Sample implementation of Actionable RESTful API Errors using ASP.NET Web API and FluentValidation
+A sample implementation of actionable RESTful API errors using ASP.NET Web API and FluentValidation
+
+Sample HTTP request to trigger validation:
+
+POST to http://HOST:PORT/api/users/
+
+Headers:
+
+Content-Type: application/json
+
+Body:
+
+{
+    "username": "dai",
+    "address": {}
+}
