@@ -11,7 +11,9 @@ Content-Type: application/json
 
 Body:
 
+```json
 {
-    "username": "dai",
-    "address": {}
+   "username":"dai",
+   "address":{}
 }
+```
